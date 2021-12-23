@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: none;
+}
+
+body{
+    background-color: #3f40458a;
+    color: #fff;
+    font-family: system-ui;
+}
+
+header{
+    width: 100%;
+    height: 50vh;
+    background-color: #30292F;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    border-bottom: 8px solid #5c515a;
+}
+#profile{
+    height: 30vh;
+    border-radius: 50%;
+    border: 8px solid #3f4045;
+
+}
+#profile-p{
+    font-size: 3rem;
+    
+}
+
+
+
+section{
+    padding: 20px;
+}
+
+.project-entry{
+    width:100%;
+    height: auto;
+    background-color: #02111b;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    
+}
+.project-title{
+    position: relative;
+    height: auto;
+    max-width: 500px;
+    padding: 10px;
+    background-color: #3f4045;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+.project-ref{
+    padding:0.5rem 1rem;
+    background-color: burlywood;
+    border-radius: 8px;
+    color: #02111b;
+    border: 1px solid burlywood;
+    
+}
+.project-src{
+    padding:0.5rem 1rem;
+    background-color: transparent;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    color: burlywood;
+
+}
+.project-desc{
+    max-width: 500px;
+    margin:auto;
+    margin-top: 20px;
+}
+.links{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+
+.even-entry{
+    background-color: #5D737E;
+}
+
+.even-ref{
+    background-color: #333;
+    color: burlywood;
+    border: 2px solid#333;    
+}
+.even-src{
+background-color: rgb(51, 51, 51,0.25);
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background-color: #30292F;
+    text-align: center;
+}
+.social-img {
+    height: 25px;
+    cursor: pointer;
+    margin: 3px;
+  }
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+        padding: 0px;
+        }
+       
+  }
+  
+@media screen and (max-width: 450px) {
+    #profile-p{
+        font-size: 12vw;
+    }
+    .links{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    #profile{
+        height: 30vw;
+        border-radius: 50%;
+        border: 1.5vw solid #3f4045;
+    
+    }
+       
+  }
+  
