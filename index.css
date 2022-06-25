@@ -90,6 +90,12 @@ section{
     justify-content: center;
     column-gap: 10px;
 }
+.project-ref:hover{
+    transform: scale(1.03);
+}
+.project-src:hover{
+    transform: scale(1.03);
+}
 
 
 .even-entry{
@@ -99,7 +105,7 @@ section{
 .even-ref{
     background-color: #333;
     color: burlywood;
-    border: 2px solid#333;    
+    border: 2px solid #333;    
 }
 .even-src{
 background-color: rgb(51, 51, 51,0.25);
@@ -117,6 +123,9 @@ footer{
     height: 25px;
     cursor: pointer;
     margin: 3px;
+  }
+.social-img:hover {
+    transform: scale(1.15);
   }
 
 
